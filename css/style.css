@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  height: 200%;
+}
+
+.hero-img {
+  background-image: url("../images/heroimg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 200px;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  color: white;
+  display: flex;
+}
+
+.logo {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: -7px;
+  border: 5px solid #171716;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #9a9890;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #171716;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #565443;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #45443b;
+  color: white;
+}
+
+.navbar input[type="text"] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+footer {
+  background-color: #9a9890;
+}
+
+hr {
+  border: 1px solid #45443b;
+}
+
+ul {
+  list-style: none;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+.sm-inline {
+  display: flex;
+  justify-content: center;
+}
+
+.sm-logo {
+  width: 35px;
+  margin: 0px 10px 0px 10px;
+}
+
+.copyright {
+  background-color: #45443b;
+  color: #ccc;
+  text-align: left;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.column {
+  display: block;
+  width: 80%;
+  height: 100%;
+  text-align: center;
+  margin: 0px 10px 0px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #45443b;
+}
+
+section {
+  margin: 10px 100px 10px 100px;
+}
+
+.news {
+  width: 50%;
+  height: 100%;
+  margin: 10px 0px 10px 0px;
+}
+
+section p {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+
+  .navbar a,
+  .navbar input[type="text"] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+
+  .navbar input[type="text"] {
+    border: 1px solid #ccc;
+  }
+}

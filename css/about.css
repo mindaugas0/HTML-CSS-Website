@@ -1,0 +1,26 @@
+section {
+  margin: 10px 100px 10px 100px;
+}
+section p {
+  margin-bottom: 10px;
+}
+.oberlander {
+  width: 400px;
+  float: right;
+}
+.img-c {
+  width: 400px;
+}
+.img-container {
+  text-align: center;
+}
+@media only screen and (max-width: 800px) {
+  .oberlander {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+  }
+  .img-c {
+    width: 100%;
+  }
+}
